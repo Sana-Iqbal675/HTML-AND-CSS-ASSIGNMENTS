@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panacloud website</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <span>
+                <img src="./img/download.png" alt="Panacloud Logo" width="200" />
+                <span>
+                    <center>
+                        <a href="./index.html">Home</a>
+                        <a href="./about.html">About</a>
+                        <a href="./portfolio.html">Portfolio</a>
+                        <a href="./contact.html">Contact</a>
+                    </center>
+                </span>
+            </span>
+        </div>
+        <form method="POST">
+            <fieldset>
+                <legend>Your Details:</legend>
+                <label for="name">Name:
+                    <input type="text" name="name" />
+                </label>
+                <br />
+                <label for="email">Email:
+                    <input type="email" name="email" id="email" />
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Review</legend>
+                <label for="hear">How did you hear about us?
+                    <select name="hear" id="hear">
+                        <option value="hear1">Google</option>
+                        <option value="hear2">Facebook</option>
+                        <option value="hear3">Youtube</option>
+                        <option value="hear3">Friends</option>
+                    </select>
+                </label>
+                Would you visit us again?
+                <br />
+                <input type="radio" name="visit" id="visit1" value="yes" /><label for="visit1">Yes</label>
+                <input type="radio" name="visit" id="visit2" value="no" /><label for="visit2">No</label>
+                <input type="radio" name="visit" id="visit3" value="maybe" /><label for="visit3">Maybe</label>
+                <br />
+                <label for="comments">Comments: </label> <br />
+                <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+                <br />
+                <input type="checkbox" name="signup" id="signup" checked />
+                <label for="signup">Sign me up for email updates</label>
+                <br />
+                <input type="submit" value="Submit review" />
+            </fieldset>
+        </form>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d462118.02491053584!2d67.15546194999999!3d25.193202399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1611419190422!5m2!1sen!2s"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        <div>
+            <center>Copyright &#169; 2020. All rights reserved.</center>
+        </div>
+    </div>
+</body>
+
+</html>
