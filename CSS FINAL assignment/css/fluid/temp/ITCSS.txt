@@ -1,0 +1,7 @@
+seetings    // variable
+tools    // mixin and function
+generics    /* normalize */ // reset and normalize
+elements    /* reboot */  // font size and changes reboot //  Styles that go directly on HTML elements, no classes or id are specified yet
+objects    /* grid Dino-Theme Dino-icon */ // So called “cosmetic free design patterns” such as a grid system
+components    /* */ // UI components from the design team, e.g. footer
+utilities    /* Dino-utilities Dino-Shapes */ // and helpers

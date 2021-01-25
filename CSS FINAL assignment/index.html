@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>final css assignment</title>
+    <link href="./css/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="./css/Fluid/temp/fluid.css" rel="stylesheet" />
+    <link href="./css/remixicon/remixicon.css" rel="stylesheet" />
+
+    <style>
+      .carousel-indicators li {
+        width: 1em;
+        height: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-dark clr-white flex justify-between align-middle px-4 py-7px">
+      <div class="flex align-middle">
+        <div class="mx-2 p-1rem is-circle bg-gray icon"><i class="ri-facebook-fill"></i></div>
+        <div class="mx-2 p-1rem is-circle bg-gray icon"><i class="ri-google-fill"></i></div>
+        <div class="mx-2 p-1rem is-circle bg-gray icon"><i class="ri-twitter-fill"></i></div>
+        <div class="mx-2 p-1rem is-circle bg-gray icon"><i class="ri-linkedin-box-fill"></i></div>
+        <div class="mx-2 p-1rem is-circle bg-gray icon"><i class="ri-youtube-fill"></i></div>
+      </div>
+      <div class="flex align-middle">
+        <div class="mx-7px"><i class="clr-primary txt-middle icon ri-phone-fill"></i>+92(304)386-6719</div>
+        <div class="mx-7px"><i class="clr-primary txt-middle icon ri-phone-fill"></i>+92(317)011-3001</div>
+        <button class="mx-7px btn is-sld is-primary is-sm txt-upper">Call me back</button>
+      </div>
+    </div>
+    <header class="flex align-middle px-4 justify-between bg-white lyt-header sticky top-0">
+      <div><img class="img w-16 py-2" src="./img/slice1.png" /></div>
+      <div class="flex align-self-stretch">
+        <a href="#" class="mx-9px btn is-min is-secondary clr-body txt-upper border-hide">Why us</a>
+        <a href="#about" class="mx-9px btn is-min is-secondary clr-body txt-upper border-hide">about</a>
+        <a href="#" class="mx-9px btn is-min is-secondary clr-body txt-upper border-hide">services</a>
+        <a href="#portfolio" class="mx-9px btn is-min is-secondary clr-body txt-upper border-hide">portfolio</a>
+        <a href="#process" class="mx-9px btn is-min is-secondary clr-body txt-upper border-hide">process</a>
+        <a href="#" class="mx-9px btn is-min is-secondary clr-body txt-upper border-hide">reviews</a>
+        <a href="#" class="mx-9px btn is-min is-secondary clr-body txt-upper border-hide">Our skills</a>
+        <a href="#contact-us" class="mx-9px btn is-min is-secondary clr-body txt-upper border-hide">Contact us</a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="carousel slide" id="Titlecarousel" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li class="is-circle icon active" data-bs-slide-to="0" data-bs-target="#Titlecarousel"></li>
+            <li class="is-circle icon" data-bs-slide-to="1" data-bs-target="#Titlecarousel"></li>
+            <li class="is-circle icon" data-bs-slide-to="2" data-bs-target="#Titlecarousel"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item bg-img txt-center active" style="background-image: url('./img/slice20.png')">
+              <div class="py-10 w-12 mx-auto clr-white">
+                <div class="display-3 txt-upper font-bold">WE are experts</div>
+                <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis magni sint sed earum modi vitae, illo corporis placeat ipsam quos quis perferendis dolore tempora quidem sapiente, officiis fuga voluptas sit.</p>
+                <button class="btn is-sld is-secondary is-lg px-4">Read More</button>
+              </div>
+            </div>
+            <div class="carousel-item bg-img txt-center" style="background-image: url('./img/slice20.png')">
+              <div class="py-10 w-12 mx-auto clr-white">
+                <div class="display-3 txt-upper font-bold">WE are experts</div>
+                <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis magni sint sed earum modi vitae, illo corporis placeat ipsam quos quis perferendis dolore tempora quidem sapiente, officiis fuga voluptas sit.</p>
+                <button class="btn is-sld is-secondary is-lg px-4">Read More</button>
+              </div>
+            </div>
+            <div class="carousel-item bg-img txt-center" style="background-image: url('./img/slice20.png')">
+              <div class="py-10 w-12 mx-auto clr-white">
+                <div class="display-3 txt-upper font-bold">WE are experts</div>
+                <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis magni sint sed earum modi vitae, illo corporis placeat ipsam quos quis perferendis dolore tempora quidem sapiente, officiis fuga voluptas sit.</p>
+                <button class="btn is-sld is-secondary is-lg px-4">Read More</button>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" data-bs-slide="prev" href="#Titlecarousel" role="button">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr">Previous</span>
+          </a>
+          <a class="carousel-control-next" data-bs-slide="next" href="#Titlecarousel" role="button">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="txt-center py-2">
+        <div class="txt-upper font-bold display-3 mb-1rem">Our <span class="clr-primary">advantages</span></div>
+        <p class="w-12 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sed voluptas doloribus magnam reiciendis dolore minima optio corrupti veniam. Adipisci esse porro laudantium sint fugit, ut placeat minima odio autem?</p>
+        <div class="grid justify-center container">
+          <div class="column">
+            <div class="p-10 bg-light icon is-circle" style="font-size: 12rem"><img class="img" src="./img/slice6.png" /></div>
+            <div class="font-bold txt-upper">inovation</div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam distinctio</p>
+          </div>
+          <div class="column">
+            <div class="p-10 bg-light icon is-circle" style="font-size: 12rem"><img class="img" src="./img/slice5.png" /></div>
+            <div class="font-bold txt-upper">Quality</div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam distinctio</p>
+          </div>
+          <div class="column">
+            <div class="p-10 bg-light icon is-circle" style="font-size: 12rem"><img class="img" src="./img/slice3.png" /></div>
+            <div class="font-bold txt-upper">Exprience</div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam distinctio</p>
+          </div>
+          <div class="column">
+            <div class="p-10 bg-light icon is-circle" style="font-size: 12rem"><img class="img" src="./img/slice7.png" /></div>
+            <div class="font-bold txt-upper">Happy Clients</div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam distinctio</p>
+          </div>
+          <div class="column">
+            <div class="p-10 bg-light icon is-circle" style="font-size: 12rem"><img class="img" src="./img/slice4.png" /></div>
+            <div class="font-bold txt-upper">Support</div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam distinctio</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-2 relative bg-light">
+        <div class="relative z-10 txt-upper font-bold display-3 mb-1rem txt-center" id="About">About <span class="clr-primary">us</span></div>
+        <div class="grid align-middle py-4">
+          <div class="column pl-6 w-10">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, soluta, inventore ad itaque fugit nisi numquam dolores alias dolorum harum id odio reprehenderit. Possimus rem in aut explicabo illum esse!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, soluta, inventore ad itaque fugit nisi numquam dolores alias dolorum harum id odio reprehenderit. Possimus rem in aut explicabo illum esse!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, soluta, inventore ad itaque fugit nisi numquam dolores alias dolorum harum id odio reprehenderit. Possimus rem in aut explicabo illum esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, soluta, inventore ad itaque fugit nisi numquam dolores alias dolorum harum id odio reprehenderit. Possimus rem in aut explicabo illum esse!</p>
+            <button class="mt-8 btn is-sld is-secondary is-lg px-4">Read More</button>
+          </div>
+          <div class="column p-0">
+            <img class="img absolute top-0 right-0 bottom-0 h-100" src="./img/slice19.png" />
+          </div>
+        </div>
+      </section>
+
+      <section class="py-2 bg-dark clr-white txt-center">
+        <div class="relative z-10 txt-upper font-bold display-3" id="portfolio">Our <span class="clr-primary">portfolio</span></div>
+        <p class="my-1rem w-12 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sed voluptas doloribus magnam reiciendis dolore minima optio corrupti veniam. Adipisci esse porro laudantium sint fugit, ut placeat minima odio autem?</p>
+        <div class="mb-1rem txt-upper flex justify-between font-bold mx-auto w-14">
+          <div>Web design</div>
+          <div>Graphics design</div>
+          <div>Branding</div>
+          <div class="clr-secondary">Logo</div>
+          <div>marketing</div>
+          <div>Advertisement</div>
+        </div>
+        <div class="flex flex-wrap container my-0 justify-center">
+          <div><img class="img" src="./img/slice9.png" /></div>
+          <div><img class="img" src="./img/slice17.png" /></div>
+          <div><img class="img" src="./img/slice16.png" /></div>
+          <div><img class="img" src="./img/slice15.png" /></div>
+          <div><img class="img" src="./img/slice14.png" /></div>
+        </div>
+        <div class="flex flex-wrap container my-0 justify-center">
+          <div><img class="img" src="./img/slice13.png" /></div>
+          <div><img class="img" src="./img/slice12.png" /></div>
+          <div><img class="img" src="./img/slice8.png" /></div>
+          <div><img class="img" src="./img/slice11.png" /></div>
+          <div><img class="img" src="./img/slice10.png" /></div>
+        </div>
+      </section>
+
+      <section class="py-2 txt-center bg-light">
+        <div class="relative z-10 txt-upper font-bold display-3" id="process">Our <span class="clr-primary">process</span></div>
+        <p class="my-1rem w-12 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sed voluptas doloribus magnam reiciendis dolore minima optio corrupti veniam. Adipisci esse porro laudantium sint fugit, ut placeat minima odio autem?</p>
+
+        <div class="carousel slide" id="Review" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li class="is-circle icon bg-secondary active" data-bs-slide-to="0" data-bs-target="#Review"></li>
+            <li class="is-circle icon bg-secondary" data-bs-slide-to="1" data-bs-target="#Review"></li>
+            <li class="is-circle icon bg-secondary" data-bs-slide-to="2" data-bs-target="#Review"></li>
+          </ol>
+          <div class="carousel-inner pt-2 pb-6 container">
+            <div class="carousel-item active">
+              <div class="grid has-gap-lg">
+                <div class="column w-12 grid border-right border-bottom">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+                <div class="column w-12 grid border-left border-bottom">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+                <div class="column w-12 grid border-right border-top">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+                <div class="column w-12 grid border-left border-top">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="grid has-gap-lg">
+                <div class="column w-12 grid border-right border-bottom">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+                <div class="column w-12 grid border-left border-bottom">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+                <div class="column w-12 grid border-right border-top">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+                <div class="column w-12 grid border-left border-top">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="grid has-gap-lg">
+                <div class="column w-12 grid border-right border-bottom">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+                <div class="column w-12 grid border-left border-bottom">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+                <div class="column w-12 grid border-right border-top">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+                <div class="column w-12 grid border-left border-top">
+                  <div class="column w-6">
+                    <div class="p-10 icon title is-lg bg-white is-circle"><i class="icon display-5 ri-user-line"></i></div>
+                  </div>
+                  <div class="column txt-left pr-2">
+                    <h4 class="txt-upper">john doe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit consequuntur tempora enim reiciendis corporis corrupti at blanditiis natus similique, rem doloremque fugit ipsa fugiat magnam quidem debitis sint. Tempore!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" data-bs-slide="prev" href="#Titlecarousel" role="button">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr">Previous</span>
+          </a>
+          <a class="carousel-control-next" data-bs-slide="next" href="#Titlecarousel" role="button">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="py-2 txt-center bg-light">
+        <div class="relative z-10 txt-upper font-bold display-3">Our <span class="clr-primary">Skills</span></div>
+        <p class="my-1rem w-12 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sed voluptas doloribus magnam reiciendis dolore minima optio corrupti veniam. Adipisci esse porro laudantium sint fugit, ut placeat minima odio autem?</p>
+
+        <div class="grid container">
+          <div class="column">
+            <div class="p-10 icon img-bg" style="font-size: 10rem; background-image: url(./img/slice28.png)"><span class="clr-warn font-bold is-md">45%</span></div>
+          </div>
+          <div class="column">
+            <div class="p-10 icon img-bg" style="font-size: 10rem; background-image: url(./img/slice29.png)"><span class="clr-error font-bold is-md">45%</span></div>
+          </div>
+          <div class="column">
+            <div class="p-10 icon img-bg" style="font-size: 10rem; background-image: url(./img/slice30.png)"><span class="clr-primary font-bold is-md">45%</span></div>
+          </div>
+          <div class="column">
+            <div class="p-10 icon img-bg" style="font-size: 10rem; background-image: url(./img/slice31.png)"><span class="clr-dark font-bold is-md">45%</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-2 txt-center bg-primary clr-white">
+        <div class="relative z-10 txt-upper font-bold display-3">Start Your new project</div>
+        <div class="flex container my-2">
+          <input class="mx-1rem p-1rem input font-bold is-lg h-100" type="text" placeholder="Your Name" />
+          <input class="mx-1rem p-1rem input font-bold is-lg h-100" type="text" placeholder="Your Email" />
+          <input class="mx-1rem p-1rem input font-bold is-lg h-100" type="text" placeholder="Your Phone" />
+          <button class="mx-1rem p-1rem txt-nowrap btn is-sld is-secondary font-bold is-lg">Send Request</button>
+        </div>
+        <div class="w-15 mx-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde porro atque voluptates! Ipsam, soluta. Animi in quaerat, nihil, voluptate ad eligendi error voluptatum repellat blanditiis dolor impedit, rem aperiam velit.</div>
+      </section>
+
+      <section class="py-2 txt-center">
+        <div class="relative z-10 txt-upper font-bold display-3" id="contact-us">Our <span class="clr-primary">Contacts</span></div>
+        <p class="my-1rem w-12 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sed voluptas doloribus magnam reiciendis dolore minima optio corrupti veniam. Adipisci esse porro laudantium sint fugit, ut placeat minima odio autem?</p>
+        <div class="font-bold is-lg"><i class="clr-primary icon mr-1rem ri-map-pin-line"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae quasi reprehenderit reiciendis temporibus repellendus corrupti</div>
+        <div class="font-bold is-lg my-7px flex justify-center">
+          <div class="mx-1rem"><i class="clr-primary icon mr-1rem ri-phone-fill"></i> (304) 386-6719</div>
+          <div class="mx-1rem"><i class="clr-primary icon mr-1rem ri-phone-fill"></i> (317) 011-3001</div>
+          <div class="mx-1rem"><i class="clr-primary icon mr-1rem ri-mail-line"></i>info@website.com</div>
+        </div>
+        <img src="img/slice27.png" alt="" class="img w-24" />
+      </section>
+    </main>
+    <footer class="lyt-footer bg-primary">
+      <div class="grid container">
+        <div class="column">
+          <img src="./img/slice2.png" alt="" class="img" />
+          <div class="mt-6 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit odit incidunt fugiat nihil asperiores possimus perferendis perspiciatis a ad quod doloremque labore tempore quas quos, velit culpa nemo deserunt quisquam!</div>
+          <div>&copy; Panacloud 2019</div>
+        </div>
+        <div class="column">
+          <div class="h3 font-bold" >Services</div>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem ipsum</a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem </a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem ipsum dolor</a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem ipsum</a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem </a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem ipsum dolor</a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem ipsum dolor</a>
+        </div>
+        <div class="column">
+          <div class="h3 font-bold">Useful Links</div>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem ipsum</a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem </a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem ipsum dolor</a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem ipsum</a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem </a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem ipsum dolor</a>
+          <a href="#" class="block txt-decor-underline mb-4 clr-white">Lorem ipsum dolor</a>
+        </div>
+        <div class="column">
+          <div class="h3 font-bold">Contact</div>
+          <div><i class="mb-4 icon mr-7px ri-phone-fill"></i> (304) 386-6719</div>
+          <div><i class="mb-4 icon mr-7px ri-phone-fill"></i> (317) 011-3001</div>
+          <div><i class="mb-4 icon mr-7px ri-mail-line"></i>info@website.com</div>
+          <div class="h3 font-bold pt-10 mt-10">Follow Us</div>
+          <div class="flex align-middle">
+            <div class="mx-2 p-1rem is-circle bg-gray icon"><i class="clr-primary ri-facebook-fill"></i></div>
+            <div class="mx-2 p-1rem is-circle bg-gray icon"><i class="clr-primary ri-google-fill"></i></div>
+            <div class="mx-2 p-1rem is-circle bg-gray icon"><i class="clr-primary ri-twitter-fill"></i></div>
+            <div class="mx-2 p-1rem is-circle bg-gray icon"><i class="clr-primary ri-linkedin-box-fill"></i></div>
+            <div class="mx-2 p-1rem is-circle bg-gray icon"><i class="clr-primary ri-youtube-fill"></i></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./css/bootstrap/dist/js/bootstrap.js"></script>
+</html>

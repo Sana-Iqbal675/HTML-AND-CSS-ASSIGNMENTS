@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Bootstrap + data-CSS</title>
+    <meta name="viewport" conis-10t="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" conis-10t="IE=edge" />
+
+    <!-- <link href="./fluid-bugs.css" rel="stylesheet" /> -->
+    <!-- <link href="./fluid-utilities.css" rel="stylesheet" /> -->
+    <link href="./fluid.css" rel="stylesheet" />
+    <!-- <link href="../../bootstrap.css" rel="stylesheet"> -->
+    <link href="./fa/fontawesome.css" rel="stylesheet" />
+
+    <style>
+      .scrollbar::-webkit-scrollbar {
+        background-color: transparent;
+        height: 4px;
+        width: 4px;
+      }
+
+      .scrollbar::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+
+      .scrollbar::-webkit-scrollbar-thumb {
+        background-color: #babac0;
+        border-radius: 99px;
+      }
+
+      .scrollbar::-webkit-scrollbar-thumb:hover {
+        background-color: #a0a0a5;
+      }
+
+      [hidden] {
+        display: initial !important;
+      }
+    </style>
+  </head>
+
+  <body class="bg-warn flex align-middle justify-center h-min-100vh">
+    <div class="container bg-body p-0 shadow-lg">
+      <header class="lyt-header justify-between">
+        <div class="group">
+          <button class="btn is-min is-info border-hide">button 1</button>
+          <button class="btn is-min is-info border-hide">button 2</button>
+          <button class="btn is-min is-info border-hide">button 3</button>
+          <button class="btn is-min is-info border-hide">button 4</button>
+        </div>
+
+        <button class="btn is-min is-info border-hide" onclick="document.getElementsByClassName('lyt-sidebar')[0].classList.add('active');">
+          Toggle Sidebad
+        </button>
+      </header>
+
+      <div class="grid align-top">
+        <aside class="lyt-sidebar w-24 w-6@md fixed">
+          <div class="w-24 z-top">
+            <button class="btn is-min is-block is-info border-hide" onclick="document.getElementsByClassName('lyt-sidebar')[0].classList.remove('active');">
+              Toggle Sidebad
+            </button>
+          </div>
+          <div class="menu">
+            <button class="menu-item">Ask</button>
+            <button class="menu-item">Ask</button>
+            <div class="menu" href="#">
+              <button class="menu-item menu-trigger">Sub menu</button>
+              <button class="menu-item">Ask</button>
+              <button class="menu-item">Another action</button>
+              <button class="menu-item">Something else here</button>
+              <div class="menu" href="#">
+                <button class="menu-item menu-trigger">Sub menu</button>
+                <button class="menu-item">Ask</button>
+                <button class="menu-item">Another action</button>
+                <button class="menu-item">Something else here</button>
+                <div class="menu" href="#">
+                  <button class="menu-item menu-trigger">Sub menu</button>
+                  <button class="menu-item">Ask</button>
+                  <button class="menu-item">Another action</button>
+                  <button class="menu-item">Something else here</button>
+                  <div class="menu" href="#">
+                    <button class="menu-item menu-trigger">Sub menu</button>
+                    <button class="menu-item">Ask</button>
+                    <button class="menu-item">Another action</button>
+                    <button class="menu-item">Something else here</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="menu-item">Ask</button>
+            <button class="menu-item">Ask</button>
+            <button class="menu-item">Ask</button>
+            <div class="menu" href="#">
+              <button class="menu-item menu-trigger">Sub menu</button>
+              <button class="menu-item">Ask</button>
+              <button class="menu-item">Another action</button>
+              <button class="menu-item">Something else here</button>
+              <div class="menu" href="#">
+                <button class="menu-item menu-trigger">Sub menu</button>
+                <button class="menu-item">Ask</button>
+                <button class="menu-item">Another action</button>
+                <button class="menu-item">Something else here</button>
+                <div class="menu" href="#">
+                  <button class="menu-item menu-trigger">Sub menu</button>
+                  <button class="menu-item">Ask</button>
+                  <button class="menu-item">Another action</button>
+                  <button class="menu-item">Something else here</button>
+                  <div class="menu" href="#">
+                    <button class="menu-item menu-trigger">Sub menu</button>
+                    <button class="menu-item">Ask</button>
+                    <button class="menu-item">Another action</button>
+                    <button class="menu-item">Something else here</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="menu-item">Another action</button>
+            <button class="menu-item">Something else here</button>
+          </div>
+        </aside>
+        <div class="overlay" onclick="document.getElementsByClassName('lyt-sidebar')[0].classList.remove('active');"></div>
+
+        <div class="column grid">
+          <div class="column w-24">
+            <div class="grid">
+              <div class="column">
+
+                <div class="divider is-y">Normal Button</div>
+                <div class="divider is-y">Normal Button</div>
+                <div class="divider is-y">Normal Button</div>
+                <div class="divider is-y">Normal Button</div>
+                <div class="divider is-y">Normal Button</div>
+                <div class="divider is-y">Normal Button</div>
+              </div>
+
+              <div class="column">
+                <div class="divider is-y is-start">Normal Button</div>
+              </div>
+
+              <div class="column">
+                <div class="divider is-y is-end">Normal Button</div>
+              </div>
+
+              <div class="column">
+                <div class="divider">Normal Button</div>
+                <div class="divider is-start">Normal Button</div>
+                <div class="divider is-end">Normal Button</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="lyt-footer">this is footer</footer>
+    </div>
+  </body>
+
+  <script src="./jquery-3.3.1.min.js"></script>
+  <script>
+    $.each($("[indeterminate]"), function (index, value) {
+      $(value).prop("indeterminate", true);
+    });
+
+    $("[class*=trigger]").click(event => {
+      $(event.target).toggleClass("active");
+    });
+
+    $("a[href='#']").click(function (e) {
+      e.preventDefadivt();
+    });
+  </script>
+
+</html>
